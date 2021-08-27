@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
+    id 'com.github.dcendents.android-maven'
 }
+group = 'faiz'
+version = '0.1'
 
 android {
     compileSdkVersion 30
@@ -14,6 +17,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
