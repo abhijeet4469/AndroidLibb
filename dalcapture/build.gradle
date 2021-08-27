@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'com.github.dcendents.android-maven'
 }
-group = 'faiz'
+group = 'abhijeet4469'
 version = '0.1'
 
 android {
