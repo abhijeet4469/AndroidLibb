@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'com.github.dcendents.android-maven'
 }
 group = 'abhijeet4469'
@@ -10,7 +10,6 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.dalcapture"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
