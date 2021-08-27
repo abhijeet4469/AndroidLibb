@@ -1,0 +1,3 @@
+rootProject.name = "AndroidLibb"
+include ':app'
+include ':dalcapture'
